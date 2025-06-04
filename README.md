@@ -1,8 +1,8 @@
 {
-  "name": "KAHANGE XMD",
-  "description": "Javascript WhatsApp bot made by KAHANGE TECH",
+  "name": "PRINCE XMD",
+  "description": "Javascript WhatsApp bot made by PRINCE TECH",
   "logo": "https://files.catbox.moe/v2fbec.jpeg",
-  "keywords": ["KAHANGE XMD"],
+  "keywords": ["PRINCE XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "KAHANGE XMD"
+      "value": "PRINCE XMD"
     }, 
 
     "PREFIX": {
@@ -99,7 +99,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KAHANGE XMD"
+      "value": "PRINCE XMD"
 
       }, 
 
@@ -138,7 +138,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*POWERED BY KAHANGE XMD*"
+      "value": "*POWERED BY PRINCE XMD*"
     },
 
       "DELETE_LINKS": {
