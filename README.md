@@ -1,67 +1,213 @@
-# KAHANGE-XMD
+{
+  "name": "KAHANGE XMD",
+  "description": "Javascript WhatsApp bot made by KAHANGE TECH",
+  "logo": "https://files.catbox.moe/v2fbec.jpeg",
+  "keywords": ["KAHANGE XMD"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+
+    "STICKER_NAME": {
+      "description": "type your sticker pack name.",
+      "required": false,
+      "value": "KAHANGE XMD"
+    }, 
+
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": false,
+      "value": "."
+    },
+
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": false,
+      "value": "public"
+
+    },
 
 
-<!-- Glowing Header -->
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if want always online.",
+      "required": false,
+      "value": "false"  
+    },    
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+KHNGE+XMD+QUANTUM+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Ray+kahange;🚀+Next-Gen+Quantum+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
-</h1>
+    "AUTO_VOICE": {
+      "description": "Make it true if want automatic voice reply .",
+      "required": false,
+      "value": "false"
+    }, 
 
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "required": false,
+      "value": "false"
+    }, 
 
-<!-- Banner Image -->
-<p align="center">
-  <a href="https://files.catbox.moe/c07f3s.jpeg">
-    <img src="https://files.catbox.moe/c07f3s.jpeg" width="100%" height="auto">
-  </a>
-</p>
+    "AUTO_STICKER": {
+      "description": "Make it true if you want automatic sticker.",
+      "required": false,
+      "value": "false"
+    }, 
 
-<!-- Action Buttons -->
-<p align="center">
-  <a href="https://www.ibrahimadams.site/scanner">
-    <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_GET_QUANTUM_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
-  </a>
-  
-  <a href="https://www.ibrahimadams.site/Deploy">
-    <img title="DEPLOY QUANTUM BOT" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://render.com">
-    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260" height="50"/>
-  </a>
-  
-  <a href="https://ibrahimadams.site/Panel_files">
-    <img title="GET PANEL FILES" src="https://img.shields.io/badge/📁_GET_PANEL_FILES-000000?style=for-the-badge&logo=files&logoColor=white&color=FFA500" width="260" height="50"/>
-  </a>
-</p>
+    "AUTO_STATUS_SEEN": {
+      "description": "Make it true for automatic status seen.",
+      "required": true,
+      "value": "true"
+    }, 
 
-<p align="center">
-  <a href="https://railway.app?referralCode=AqkNn4">
-    <img title="DEPLOY ON RAILWAY" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RAILWAY-000000?style=for-the-badge&logo=railway&logoColor=white&color=purple" width="260" height="50"/>
-  </a>
-</p>
+    "AUTO_STATUS_REACT": {
+      "description": "make it true for automatic status reaction or like.",
+      "required": true,
+      "value": "true"
+    }, 
 
-<!-- Referral Code -->
-<p align="center">
-  <b>Referral Code for Railway:</b> <code>AqkNn4</code>
-</p>
+    "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply msg on status seen.",
+      "required": true,
+      "value": "false"
+    }, 
 
-<!-- Glowing Footer -->
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message on status reply",
+      "required": true,
+      "value": "*SEEN YOUR STATUS BY PRINCE XMD*"
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎 KAHANGE+XMD+Quantum+Edition+by+Ray+kahange;⚡+The+Future+of+WhatsApp+Bots+is+Here" alt="Footer Animation">
-</h3>
+     }, 
 
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "prince tech"
+}, 
+
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "255623672733"
+
+    }, 
+
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "KAHANGE XMD"
+
+      }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+
+    },
+
+     "ANTI_LINK_KICK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "false"
+
+    },
+
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words.",
+      "required": false,
+      "value": "false"
+    },
+
+   "MENTION_REPLY": {
+      "description": "make it true if want mention reply if someone menetion you.",
+      "required": false,
+      "value": "false"
+    },
+
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": false,
+      "value": "https://files.catbox.moe/v2fbec.jpeg"
+    },
+
+     "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*POWERED BY KAHANGE XMD*"
+    },
+
+      "DELETE_LINKS": {
+      "description": "remove links from group automatically without removing member",
+      "required": false,
+      "value": "false"
+    },
+
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recoding.",
+      "required": false,
+      "value": "false"
+    },
+
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
+    },
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    },
+
+    "CUSTOM_REACT": {
+      "description": "Make it true if you want custom reactions.",
+      "required": false,
+      "value": "false"
+
+    }, 
+
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "put here custom react react emojis.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🙄,🇹🇿"
+    }, 
+
+    "ANTI_DEL_PATH": {
+      "description": "change it to -same- if you want to resend deleted message in same chat",
+      "required": false,
+      "value": "log"
+    }, 
+
+    "ADMIN_EVENTS": {
+      "description": "make it true if want know who promote or demote a member .",
+      "required": false,
+      "value": "false"
+    },
+
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
+      "required": false,
+      "value": "true"
+    },
+
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
+      "required": false,
+      "value": "false"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
